@@ -4,12 +4,12 @@ body{
 
 .headerbox{
   display: flex;
-  border: solid;
   justify-content: space-between;
   align-items: center;
   height: 38px;
   width: auto;
   border-radius: 15px; 
+  background-color: white;
 }
 
 .button{
@@ -28,7 +28,6 @@ color: white;
 
 .Mainbox{
   display: flex;
-  border: solid;
   justify-content: space-around;
   margin: 45px;
   margin-top: 10px;
@@ -39,11 +38,22 @@ color: white;
 .square{
 text-align: center;
 border-radius: 30px;
-border: solid;
 width: 371px;
 margin-left: 40px;
 margin-right: 40px;;
 background-color: #006DC7;
 color: white;
-line-height: 4;
+line-height: 3;
+font-size: 25px;
 }
+
+/* ´background */
+body {
+  background-image: url("assets/backgroud.jpg");
+  background-size: contain;
+  background-position: center; 
+  background-repeat: repeat;
+  background-color: #054b84;
+  background-blend-mode: multiply;
+}
+  
