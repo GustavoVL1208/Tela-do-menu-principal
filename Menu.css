@@ -16,7 +16,7 @@ body{
  height: 38px;
  text-align: center;
  line-height: 2.4;
- border-radius: 15px;
+ border-radius: 10px;
  width: 258px;
 }
 
@@ -58,7 +58,7 @@ body {
   background-blend-mode: multiply;
 
 }
-
+/* ´quadros brancos */
 .whiteboards{
    display: flex;
   justify-content: space-around;
@@ -95,7 +95,6 @@ body {
   text-align: center; 
   padding:15px;
   font-size: 25px;
-  border: solid;
   align-items: center;
 }
 
@@ -124,4 +123,38 @@ body {
 .textin img{
   height: 40px;
   vertical-align: bottom;
+}
+
+.downboards{
+   display: flex;
+  justify-content: space-around;
+  height: auto;
+  width: auto;
+}
+
+.box3{
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  margin: 45px;
+  margin-top: 1px;
+  height: 500px;
+  min-width: 570px;
+  border-radius: 15px;
+  text-align: left; 
+  padding: 15px;
+  font-size: 25px;
+}
+
+.box4{
+  display: flex;
+  justify-content: center;
+  margin: 45px;
+  margin-top: 1px;
+  height: 500px;
+  min-width: 570px;
+  border-radius: 15px;
+  text-align: left; 
+  padding: 15px;
+  font-size: 25px;
 }
