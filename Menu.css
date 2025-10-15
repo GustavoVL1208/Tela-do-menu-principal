@@ -31,6 +31,7 @@ color: white;
   justify-content: space-around;
   margin: 45px;
   margin-top: 10px;
+  margin-bottom: 1px;
   height: 162px;
   width: auto;
 }
@@ -38,7 +39,7 @@ color: white;
 .square{
 text-align: center;
 border-radius: 30px;
-width: 371px;
+min-width: 370px;
 margin-left: 40px;
 margin-right: 40px;;
 background-color: #006DC7;
@@ -55,5 +56,72 @@ body {
   background-repeat: repeat;
   background-color: #054b84;
   background-blend-mode: multiply;
+
 }
+
+.whiteboards{
+   display: flex;
+  justify-content: space-around;
+  height: auto;
+  width: auto;
   
+}
+
+.box1{
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  margin: 45px;
+  margin-top: 1px;
+  height: 270px;
+  min-width: 570px;
+  border-radius: 15px;
+  text-align: left; 
+  padding: 15px;
+  font-size: 25px;
+}
+
+.box2{
+  background-color: white;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  align-content: center;
+  margin: 45px;
+  margin-top: 1px;
+  height: 270px;
+  min-width: 570px;
+  border-radius: 15px;
+  text-align: center; 
+  padding:15px;
+  font-size: 25px;
+  border: solid;
+  align-items: center;
+}
+
+.textin{
+ width: 540px;
+ height: 160px;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ padding:15px;
+}
+
+.buttonConsult{
+ Background-color: #006DC7;
+ color: white;
+ justify-content: center;
+ width: 500px;
+ height: 60px;
+ align-items: center;
+ text-align: center;
+ Line-height: 2.3;
+ margin-top: 1px;
+ border-radius: 15px;
+}
+
+.textin img{
+  height: 40px;
+  vertical-align: bottom;
+}
