@@ -1,0 +1,22 @@
+.headerbox{
+  display: flex;
+  border: solid;
+  justify-content: space-between;
+  align-items: center;
+  height: 38px;
+  width: auto;
+  border-radius: 15px; 
+}
+
+.button{
+ height: 38px;
+ text-align: center;
+ line-height: 2.4;
+ border-radius: 15px;
+ width: 258px;
+}
+/* ´botão mudando de cor */
+.button:hover {
+Background-color: #006DC7;
+color: white;
+}
