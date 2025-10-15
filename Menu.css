@@ -50,7 +50,7 @@ font-size: 25px;
 /* ´background */
 body {
   background-image: url("assets/backgroud.jpg");
-  background-size: contain;
+  background-size: 50%,contain;
   background-position: center; 
   background-repeat: repeat;
   background-color: #054b84;
