@@ -1,3 +1,7 @@
+body{
+  font-family:Roboto,sans-serif;
+}
+
 .headerbox{
   display: flex;
   border: solid;
@@ -15,8 +19,31 @@
  border-radius: 15px;
  width: 258px;
 }
-/* ´botão mudando de cor */
+
 .button:hover {
 Background-color: #006DC7;
 color: white;
+/* ´botão mudando de cor */
+}
+
+.Mainbox{
+  display: flex;
+  border: solid;
+  justify-content: space-around;
+  margin: 45px;
+  margin-top: 10px;
+  height: 162px;
+  width: auto;
+}
+
+.square{
+text-align: center;
+border-radius: 30px;
+border: solid;
+width: 371px;
+margin-left: 40px;
+margin-right: 40px;;
+background-color: #006DC7;
+color: white;
+line-height: 4;
 }
