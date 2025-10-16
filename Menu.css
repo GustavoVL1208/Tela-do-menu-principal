@@ -1,26 +1,31 @@
 body{
   font-family:Roboto,sans-serif;
+  font-weight: 500;
 }
 
 .headerbox{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 50px;
-  width: auto;
+  height: 70px;
+  width: 2000px;
+  min-width: 900px;
   border-radius: 15px; 
-  background-color: white;
-  min-width: 1024px; 
+  background-color: white; 
   margin: 20px;
+  border: solid;
+  
 }
 
 .button{
- height: 50px;
+ height: 70px;
  text-align: center;
  line-height: 2;
  border-radius: 10px;
- width: 400px;
- font-size: 25px;
+ width: 500px;
+ min-width: 150px;
+ font-size: 32px;
+ border: solid;
 }
 
 .button:hover {
@@ -39,6 +44,7 @@ color: white;
   margin-bottom: 10px;
   height: 200px;
   width: auto;
+  border: solid;
 }
 
 .square{
@@ -52,6 +58,7 @@ background-color: #006DC7;
 color: white;
 line-height: 3;
 font-size: 25px;
+border: solid;
 }
 
 /* ´background */
@@ -62,8 +69,6 @@ body {
   background-repeat: repeat;
   background-color: #054b84;
   background-blend-mode: multiply;
-  font-weight: 500;
-
 }
 /* ´quadros brancos */
 .whiteboards{
@@ -76,6 +81,7 @@ body {
   margin-top: 30px;
   margin-left: 150px;
   margin-right: 150px;
+  border: solid;
 }
 
 .box1{
@@ -90,6 +96,7 @@ body {
   text-align: left; 
   padding: 15px;
   font-size: 25px;
+  border: solid;
 }
 
 .box2{
@@ -107,6 +114,7 @@ body {
   padding:15px;
   font-size: 25px;
   align-items: center;
+  border: solid;
 }
 
 .textin{
@@ -116,6 +124,7 @@ body {
  justify-content: center;
  text-align: center;
  padding:15px;
+ border: solid;
 }
 
 .buttonConsult{
@@ -129,21 +138,24 @@ body {
  Line-height: 2.3;
  margin-top: 1px;
  border-radius: 15px;
+ border: solid;
 }
 
 .textin img{
   height: 40px;
   vertical-align: bottom;
+  border: solid;
 }
 
 .downboards{
    display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   height: auto;
   width: auto;
   margin: 45px;
   margin-left: 150px;
   margin-right: 150px;
+  border: solid;
 }
 
 .box3{
@@ -158,6 +170,7 @@ body {
   text-align: left; 
   padding: 15px;
   font-size: 25px;
+  border: solid;
 }
 
 .box4{
@@ -171,4 +184,5 @@ body {
   text-align: left; 
   padding: 15px;
   font-size: 25px;
+  border: solid;
 }
